@@ -1,0 +1,57 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+/* Style the dedicated chart container */
+.chart-container {
+    position: relative; //
+    height: 400px;     
+    width: 100%;       
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 1rem; /* Add space below the container if needed */
+}
+
+/* Canvas should fill its dedicated container */
+canvas {
+   display: block; /* Keep this */
+   max-width: 100%; /* Keep this */
+   /* REMOVE explicit height and width from canvas */
+   /* height: 400px; */
+   /* width: 100%; */
+   box-sizing: border-box; /* Keep this */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
