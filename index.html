@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PC Part Picker - Analytics Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-xl"> 
+            <a class="navbar-brand" href="#">AI PC Part Picker - Analytics</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-xl mt-5">
+        <h1>AI PC Part Picker - Analytics Dashboard</h1>
+
+        <!-- Row 1: -->
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <h2>Website Traffic (Daily Visits)</h2>
+                <div class="chart-container">
+                    <canvas id="websiteTrafficChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>Build Recommendations</h2>
+                 <div class="chart-container">
+                    <canvas id="buildRecommendationsChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row mb-5">
+            <div class="col-md-5">
+                <h2>Budget vs. Satisfaction</h2>
+                 <div class="chart-container" id="scatter-chart-wrapper">
+                    <canvas id="satisfactionScatterChart"></canvas>
+                 </div>
+            </div>
+            <div class="col-md-7">
+                <h2>Component CTR Breakdown</h2>
+                <div class="chart-container">
+                    <canvas id="componentCTRChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+         <!-- Row 3 -->
+         <div class="row mb-5">
+            <div class="col-md-12">
+                <h2>Marketing Campaign Performance</h2>
+                 <div class="chart-container">
+                    <canvas id="marketingRadarChart"></canvas>
+                 </div>
+            </div>
+        </div>
+
+    </div> <!-- End -->
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>© 2024 AI PC Part Picker. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
