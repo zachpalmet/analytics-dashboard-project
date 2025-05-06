@@ -16,3 +16,4 @@ I have 5 charts each with a specific data set adressed.
 
 5. Marketing Campaign Performance Diagram:
      This chart compares cost, clicks, and conversations based on what type of marketing we used.
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/Fn_n6xyi2dhZRK6J/0.jpg)](http://www.youtube.com/watch?v=Fn_n6xyi2dhZRK6J "Video Title")
